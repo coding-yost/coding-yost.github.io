@@ -1,0 +1,43 @@
+Create a template for new file windows
+    open and close of "window" to be animated
+        open animation should emanate out from a clicked icon
+        close should minimize to the bottom of the screen
+
+there should be an option to read the contents of the cube in a window 
+that has no animation or rotation for additional ease of use
+
+Cube -
+Cube needs a button that will pop out what is displayed on cube so if someone 
+has trouble reading the info they still have an easy way of getting the info.
+
+https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r
+
+font - 
+https://fonts.google.com/specimen/Roboto
+
+github pages - 
+https://pages.github.com/
+
+Get links working
+
+get expanded display working
+
+link linked in, github and make resume downloadable
+
+Make cube and folder window bigger
+
+bigger font on cube
+
+suggestions:
+
+The only thing I dislike is how I have to hover the cube to move the info to a comfortable angle. Maybe adjust it so that once it displays your experience, it automatically moves to center?
+
+The cube moves smoothly and looks good, the replica window looks like it's from a real OS. 
+If possible, I would recommend an attempt to program the cube so that the user can drag the mouse and turn it, perhaps all the way around. This could offer a good spot for a funny easter egg, perhaps a photo of your pet or hobby. You could also incorporate other designs and colors into the cube if the user manipulates it enough, perhaps providing buttons on hidden sides not visible when you open the page. 
+I think that the window should also be able to be dragged around screen like a real one can. Being able to browse the folders is cool, there are some icons that are not aligned due to long text, but in my opinion it looks fine, but that's a potential update. 
+The window title does not change back to "Codi_Yost-Resume" when you return to root. 
+I do like the color combination but it could cause some eye strain, so adding color change options that are less saturated could improve this issue. The scroll bar is a little too thin, this would be an excellent opertunity to make a bulkier scroll bar that matches the bold colors on the page. 
+When clicking on the icons they have a little jitter, I'm now noticing it jumps depending on how long you hold your click on it. You could potentially add more interactions with this, like letting the user click and drag the icons around a bit before they return to their place.
+When clicking the link button on the cube for a specific item, nothing happens, I assume it's just not implemented yet. 
+The icons at the bottom are nice a big, I recommend giving them some padding from the sides of the window to give them some breathing room. 
+I recommend making a more traditional, static version of the resume in this site for employers who are too lazy/irritated to click through each icon, but this site is a good example of your skills so it's worth keeping both obviously. Perhaps the blank page option could be used to switch to a static page of your resume for that purpose. 

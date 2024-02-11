@@ -1,0 +1,53 @@
+:root {
+    --light: rgb(218, 165, 14);
+    --base-purple: rgb(121, 30, 132);
+    --base-tint: rgb(207, 99, 220);
+    --alt-purple: rgb(84, 19, 136);
+    --base-shadow: rgb(84, 13, 110);
+    --gray-purple: rgb(120, 111, 128);
+    --gray-darker: rgb(72, 67, 77);
+    --base-highlight: rgb(255, 67, 101);
+    --light-alpha: rgba(218, 165, 14, 0.8);
+    --base-purple-alpha: rgba(121, 30, 132, 0.8);
+    --base-tint-alpha: rgba(207, 99, 220, 0.8);
+    --alt-purple-alpha: rgba(84, 19, 136, 0.8);
+    --base-shadow-alpha: rgba(84, 13, 110, 0.8);
+    --gray-purple-alpha: rgba(120, 111, 128, 0.8);
+    --gray-darker-alpha: rgba(72, 67, 77, 0.8);
+    --base-highlight-alpha: rgba(255, 67, 101, 0.8);
+}
+body, html, #desktop {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-darker);
+}
+.cube-container, .windows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cube-container {
+    width: 50%;
+}
+.windows {
+    width: 50%;
+}
+#quick-links> .logo {
+    color: var(--base-purple);
+    margin: 5px;
+    filter:drop-shadow(0 0 0.05rem var(--base-tint-alpha));
+}
+#quick-links> .logo:hover {
+    color: var(--base-shadow);
+    filter:drop-shadow(0 0 0.05rem var(--base-purple-alpha));
+}
+#quick-links {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: var(--gray-purple) outset 5px;
+    background-color: var(--gray-purple-tint);
+}

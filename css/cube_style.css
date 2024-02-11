@@ -1,0 +1,102 @@
+:root {
+    --base-purple-alpha: rgba(121, 30, 132, 0.8);
+    --base-shadow-alpha: rgba(84, 13, 110, 0.8);
+    --gray-purple: rgb(120, 111, 128);
+    --base-highlight-alpha: rgba(255, 67, 101, 0.8);
+    --light: rgb(218, 165, 14);
+}
+.cube-container {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }  
+}
+.cube {
+    transform-style: preserve-3d;
+    width: 500px;
+    height: 500px;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: rotate3d(1, -1, 0.5, 20deg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-image: url("https://eshop.macsales.com/blog/wp-content/uploads/2021/03/Apple_Macintosh_Desktop.png"); */
+}
+.cube:hover {
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform: rotate3d(1, -1, 0.5, -5deg);
+    
+}
+.side {
+    position: absolute;
+    width: 490px;
+    height: 490px;
+    border: 5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side:hover {
+    background-color: var(--base-highlight-alpha);
+}
+.side1 {
+    background-color: var(--base-purple-alpha);
+    transform: translateZ(250px);
+}
+#side1 {
+    height: 75%;
+    width: 75%;
+    padding: 50px;
+    color: var(--light);
+}
+#expand {
+    position: fixed;
+    font-size: 30px;
+    bottom: 0;
+    right: 0;
+    margin: 50px;
+}
+#expand:hover {
+    filter: drop-shadow(0 0 0.5rem var(--base-shadow));
+    
+}
+.side2 {
+    background-color: var(--base-shadow-alpha);
+    transform: translateZ(-250px);
+    border-top: 5px dotted;
+    border-left: 5px dotted;
+}
+.side3 {
+    background-color: var(--base-purple-alpha);
+    transform: translateX(250px) rotateY(90deg); 
+}
+.side4 {
+    background-color: var(--base-shadow-alpha);
+    transform: translateX(-250px) rotateY(-90deg);
+    border-top: 5px dotted;
+    border-right: 5px dotted; 
+    border-left: 5px dotted; 
+}
+.side5 {
+    background-color: var(--base-shadow-alpha);
+    transform: translateY(-250px) rotateX(-90deg); 
+    border-top: 5px dotted;
+    border-left: 5px dotted; 
+}
+.side6 {
+    background-color: var(--base-purple-alpha);
+    transform: translateY(250px) rotateX(-90deg); 
+}
+#notes {
+    height: 40%;
+    overflow-y: scroll;
+    scroll-margin-left: 100px;
+}
