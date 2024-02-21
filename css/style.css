@@ -24,6 +24,9 @@ body, html, #desktop {
     justify-content: center;
     background-color: var(--gray-darker);
 }
+body {
+    overflow: hidden;
+}
 .cube-container, .windows {
     display: flex;
     align-items: center;

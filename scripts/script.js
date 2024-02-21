@@ -102,10 +102,10 @@ const quick_replace_reverse = (string) => {
 }
 
 const get_link = (item) => {
-    if(item.type != "link") {
-        return '';
+    if(item.type == "link") {
+        return `<a href="${item.link}"><i class="fa-solid fa-link box-icon"></i></a>`;
     }
-    return `<a href="${item.link}"><i class="fa-solid fa-link box-icon"></i></a>`;
+    return '';
 }
 
 const make_side = (item) => {
