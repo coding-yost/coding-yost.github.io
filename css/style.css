@@ -54,3 +54,6 @@ body, html, #desktop {
 .bottom-link {
     margin: 0 1vw 0 1vw;
 }
+#expand {
+    display: none;
+}
