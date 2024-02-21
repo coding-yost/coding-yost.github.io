@@ -57,14 +57,19 @@
     padding: 50px;
     color: var(--light);
 }
-#expand {
+#box-icon-container {
     position: fixed;
-    font-size: 30px;
-    bottom: 0;
+    bottom: 2rem;
     right: 0;
-    margin: 50px;
+    text-align: end;
+    width: 100%;
 }
-#expand:hover {
+.box-icon {
+    color: var(--light);
+    font-size: 30px;
+    margin: 1vw;
+}
+.box-icon:hover {
     filter: drop-shadow(0 0 0.5rem var(--base-shadow));
     
 }

@@ -78,7 +78,8 @@
                     "Installed and calibrated sensors using I2C connections and Python to display to user for diagnostic and automated purposes.",
                     "Created web app that displays sensor data info, real time images, and image database and user GUI."
                 ],
-                "type"      :   "link"
+                "type"      :   "link",
+                "link"      :   "https://astrocultivators.github.io/"
             },
             {
                 "item"      :   "Antelope Valley Community College",
@@ -89,7 +90,8 @@
                     "Business Communication, Business Ethics",
                     "Business Math and English"
                 ],
-                "type"      :   "text"  
+                "type"      :   "text"
+                
             }
         ]
     },

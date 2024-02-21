@@ -16,7 +16,7 @@
     }
     .side2, .side3, .side4, 
     .side5, .side6, 
-    .option-bar {
+    .option-bar, #expand {
         display: none;
     }
     .cube-container, .cube {

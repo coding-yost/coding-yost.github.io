@@ -17,7 +17,6 @@ const default_side_display =
             <li>CSUN Graduate 2024</li>
             <li>Musician</li>
         </ul>
-        <i class="fa-solid fa-up-right-from-square" id="expand"></i>
     `
 )
 
@@ -99,7 +98,14 @@ const get_notes = (note_array) => {
 }
 
 const quick_replace_reverse = (string) => {
-    return string.replace(/-/g, " ")
+    return string.replace(/-/g, " ");
+}
+
+const get_link = (item) => {
+    if(item.type != "link") {
+        return;
+    }
+    return `<a href="${item.link}"><i class="fa-solid fa-link box-icon"></i></a>`;
 }
 
 const make_side = (item) => {
@@ -113,9 +119,9 @@ const make_side = (item) => {
                     ${get_notes(item.notes)}
                 </ul>
             </div>
-            <div>
-                
-                <i class="fa-solid fa-up-right-from-square" id="expand"></i>
+            <div id="box-icon-container">
+                ${get_link(item)}
+                <i class="fa-solid fa-up-right-from-square box-icon" id="expand"></i>
             <div>
         `
     )
