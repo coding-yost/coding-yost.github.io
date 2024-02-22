@@ -4,6 +4,8 @@
     --gray-purple: rgb(120, 111, 128);
     --base-highlight-alpha: rgba(255, 67, 101, 0.8);
     --light: rgb(218, 165, 14);
+    --translate: 30vh;
+    --ntranslate: -30vh;
 }
 .cube-container {
     animation-name: floating;
@@ -18,8 +20,8 @@
 }
 .cube {
     transform-style: preserve-3d;
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 65vh;
     transition: 0.5s;
     transition-timing-function: ease-in-out;
     transform: rotate3d(1, -1, 0.5, 20deg);
@@ -36,8 +38,8 @@
 }
 .side {
     position: absolute;
-    width: 490px;
-    height: 490px;
+    width: 59vh;
+    height: 59vh;
     border: 5px solid;
     display: flex;
     flex-direction: column;
@@ -49,7 +51,7 @@
 }
 .side1 {
     background-color: var(--base-purple-alpha);
-    transform: translateZ(250px);
+    transform: translateZ(var(--translate));
 }
 #side1 {
     height: 75%;
@@ -75,33 +77,34 @@
 }
 .side2 {
     background-color: var(--base-shadow-alpha);
-    transform: translateZ(-250px);
+    transform: translateZ(var(--ntranslate));
     border-top: 5px dotted;
     border-left: 5px dotted;
 }
 .side3 {
     background-color: var(--base-purple-alpha);
-    transform: translateX(250px) rotateY(90deg); 
+    transform: translateX(var(--translate)) rotateY(90deg); 
 }
 .side4 {
     background-color: var(--base-shadow-alpha);
-    transform: translateX(-250px) rotateY(-90deg);
+    transform: translateX(var(--ntranslate)) rotateY(-90deg);
     border-top: 5px dotted;
     border-right: 5px dotted; 
     border-left: 5px dotted; 
 }
 .side5 {
     background-color: var(--base-shadow-alpha);
-    transform: translateY(-250px) rotateX(-90deg); 
+    transform: translateY(var(--ntranslate)) rotateX(-90deg); 
     border-top: 5px dotted;
     border-left: 5px dotted; 
 }
 .side6 {
     background-color: var(--base-purple-alpha);
-    transform: translateY(250px) rotateX(-90deg); 
+    transform: translateY(var(--translate)) rotateX(-90deg); 
 }
 #notes {
-    height: 40%;
+    height: 60%;
     overflow-y: scroll;
     scroll-margin-left: 100px;
+    scrollbar-width: thin;
 }
