@@ -58,6 +58,7 @@
     width: 75%;
     padding: 50px;
     color: var(--light);
+    overflow-y: auto;
 }
 #box-icon-container {
     position: fixed;

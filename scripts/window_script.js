@@ -22,7 +22,7 @@ const create_window = (title, options) => {
         </div>
         <div class="option-bar"></div>
         <div class="file-box">
-            <div class="files-container" id="files-container">
+            <div class="files-container container" id="files-container">
                 ${populate_files(options)}
                 <div class="logo-container" id="home-logo">
                     <i class="logo fa-solid fa-house"></i>
