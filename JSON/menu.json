@@ -114,35 +114,90 @@
         ]
     },
     {
-        "item"              :   "Other Projects",
+        "item"              :   "Portfolio Projects",
         "type"              :   "folder",
         "options"           :  [
-            {
-                "item"      :   "Order 66",
-                "position"  :   "Drummer, Writer, Logistics",
-                "year"      :   "2010 - Current",
+            {      
+                "item"      :   "Rhythem Trainer",
+                "position"  :   "Team lead, backend and metronome functionality, styling and rendering.",
+                "year"      :   "2023",
                 "notes"     :   [
-                    "Wrote, performed, and released 6 records.", 
-                    "Raised over $3,000 for touring, travel, and shows.", 
-                    "Organized live events, merchandising, and promotional materials.",
-                    "Sold over $7,000 in merchandise.",
-                    "Drew high attendance numbers and audience engagement to live performances."],
-                "type"      :   "link",
-                "link"      :   "https://open.spotify.com/artist/2aNfx0rDD2GB5a2M3hQaD1?si=SYYW3V29QAiNSwwzEVHtvQ"
-            }, 
-            {
-                "item"      :   "High Desert Musicians",
-                "position"  :   "Host, Show Runner",
-                "year"      :   "2013",
-                "notes"     :   [
-                    "Created multiple episodes for broadcast on Local access television.",
-                    "Created AV Music Mixtape in collaboration with 22 different musical acts.",
-                    "Produced assets including graphic designs, art, and scripts for mix tape, end cards, and presentation."
+                    "A website made to help people practice sight reading rhythm based on viral TikTok video challenges.", 
+                    "Users will be given curated or randomized subdivisions of a time signature and will be prompted to play along with the prompts through input.",
+                    "Built using a custom timing algorithm to circumvent javascripts poor reliability in regards to task scheduling"
                 ],
                 "type"      :   "link",
-                "link"      :   "https://www.youtube.com/@HighDesertMusicians"  
+                "link"      :   "https://rhythm-trainer.glitch.me"
+            },
+            {
+                "item"      :   "Mob Manager",
+                "position"  :   "Creator",
+                "year"      :   "2023",
+                "notes"     :   [
+                    "A DnDAPI based web application for managing npc mobs for the Dungeons and Dragons 5th Edition ruleset",
+                    "jQueary animation and implimentation",
+                    "Dynamic generation of API datasets",
+                    "Experimentation of User Interface and User Experience"
+                ],
+                "type"      :   "link",
+                "link"      :   "https://comp-584---proj-2-api-cmy.glitch.me"
+            },
+            {
+                "item"      :   "CSUN Automated Research Center for STEM: Astro Cultivator",
+                "position"  :   "Senior Design Student",
+                "year"      :   "2024",
+                "notes"     :   [
+                    "Installed and calibrated sensors using I2C connections and Python to display to user for diagnostic and automated purposes.",
+                    "Created web app that displays sensor data info, real time images, and image database and user GUI."
+                ],
+                "type"      :   "link",
+                "link"      :   "https://astrocultivators.github.io/"
+            },
+            {
+                "item"      :   "Center for Geospatial Science and Technology",
+                "position"  :   "Work From Home Full Stack Developer",
+                "year"      :   "September 2022 - January 2023",
+                "notes"     :   [
+                    "TAPPED is a REACT WEB APP that performs statistical analysis on data from the hosted map.",
+                    "Built and deployed features written in TYPESCRIPT using the ESRI JAVASCRIPT library to help allocate more than $6.5 million to water resource projects in Los Angeles and Ventura counties.",
+                    "Constructed frontend pages for APIs using CRUD action specifications and mocked API responses using data created for use before deployment.",
+                    "Built a backend for a user database using PHP and the Symphony framework.",
+                    "Released controls and options to let users change the variables for analysis of dynamically generated reports."
+                ],
+                "type"      :   "link",
+                "link"      :   "https://tapped-demo-csun-cgst.netlify.app/tapped/"
             }
         ]
-        
+    },
+    {
+        "item"      :   "Music",
+        "type"      :   "folder",
+        "options"   :   [
+        {
+            "item"      :   "Order 66",
+            "position"  :   "Drummer, Writer, Logistics",
+            "year"      :   "2010 - Current",
+            "notes"     :   [
+                "Wrote, performed, and released 6 records.", 
+                "Raised over $3,000 for touring, travel, and shows.", 
+                "Organized live events, merchandising, and promotional materials.",
+                "Sold over $7,000 in merchandise.",
+                "Drew high attendance numbers and audience engagement to live performances."],
+            "type"      :   "link",
+            "link"      :   "https://open.spotify.com/artist/2aNfx0rDD2GB5a2M3hQaD1?si=SYYW3V29QAiNSwwzEVHtvQ"
+        }, 
+        {
+            "item"      :   "High Desert Musicians",
+            "position"  :   "Host, Show Runner",
+            "year"      :   "2013",
+            "notes"     :   [
+                "Created multiple episodes for broadcast on Local access television.",
+                "Created AV Music Mixtape in collaboration with 22 different musical acts.",
+                "Produced assets including graphic designs, art, and scripts for mix tape, end cards, and presentation."
+            ],
+            "type"      :   "link",
+            "link"      :   "https://www.youtube.com/@HighDesertMusicians"  
+            }
+        ]
     }
 ]
